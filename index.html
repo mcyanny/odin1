@@ -6,15 +6,16 @@
     <head>
         <meta charset="UTF-8">
         <title>My First Webpage</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <h1>Info Webpage!</h1>
         
         <h2>Basic Info:</h2>
-        <p>My name is <strong>Yan Mazheika</strong> and I am creating a webpage.</p>
-        <p>I study at the <em>University of Massachusetts at Amherst</em>.</p>
+        <p class="info">My name is <strong>Yan Mazheika</strong> and I am creating a webpage.</p>
+        <p class="school">I study at the <em>University of Massachusetts at Amherst</em>.</p>
 
-        <h2>Education:</h2>
+        <h2 class="ed">Education:</h2>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae adipisci aspernatur quae 
             laborum porro! <b>bold text! </b>Quasi debitis culpa excepturi reiciendis consequatur neque ab ex accusamus 
             doloribus aut? Deserunt unde dignissimos repellat!</p>
@@ -30,6 +31,16 @@
             <li>two!</li>
             <li>twee!</li>
             okay</ol>
+
+        <!-- div is good for sectioning out pages, p adds an extra line before and after -->
+        <div class ="subsection header">Hello, World!</div>
+        <div>Hello again!</div>
+        <p>Hi...</p>
+        <div>Okay, bye.</div>
+
+        <!-- you can add multiple classes by adding space between the names -->
+        <div class = "alert-text">Please agree to our terms of service.</div>
+        <div id="title">My awesome 90's Page</div>
 
     </body>
 </html>

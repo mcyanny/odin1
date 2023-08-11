@@ -1,0 +1,42 @@
+h1 {
+    background-color: rgb(121, 135, 217);
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+body {
+    background-color:rgb(251, 249, 234)
+}
+p {
+    font-family:'Times New Roman', 'Helvetica', monospace;
+    color:rgb(52, 49, 44);
+}
+h2 {
+    background-color: rgb(158, 158, 255);
+}
+li {
+    font-weight: bold;
+}
+div {
+    font-weight: bold;
+}
+
+
+.ed {
+    background-color: rgb(170, 119, 219);
+}
+.info {
+    font-size:22px;
+}
+.school {
+    font-size: 20px;
+}
+.alert-text {
+    color:red;
+    font-weight: bold;
+}
+#title {
+    color:white;
+    background-color: red;
+    text-align:center;
+    font-size: 30px;
+}
